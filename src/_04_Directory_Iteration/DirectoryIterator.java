@@ -44,7 +44,7 @@ public class DirectoryIterator {
 					//System.out.println(f.getAbsolutePath());
 					if(f.getName().contains(".java")) {
 						updatedFiles ++;
-						System.out.println("Updated file # " + updatedFiles + "@ the directorty " + f.getPath());
+						System.out.println("Updated file # " + updatedFiles + " @ the directorty " + f.getPath());
 						//System.out.println(f.getName());
 						try {
 							
@@ -97,3 +97,4 @@ public class DirectoryIterator {
 		
 	}
 }
+/***  Copyright © 2020 Kevin Jillissen  ***/

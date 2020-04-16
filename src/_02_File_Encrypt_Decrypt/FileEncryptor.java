@@ -70,3 +70,4 @@ public class FileEncryptor {
 	}
 	
 }
+/***  Copyright © 2020 Kevin Jillissen  ***/

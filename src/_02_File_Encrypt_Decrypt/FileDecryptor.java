@@ -60,3 +60,4 @@ public class FileDecryptor {
 		new FileDecryptor();
 	}
 }
+/***  Copyright © 2020 Kevin Jillissen  ***/

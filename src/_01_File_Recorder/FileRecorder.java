@@ -28,3 +28,4 @@ public class FileRecorder {
 		
 	}
 }
+/***  Copyright © 2020 Kevin Jillissen  ***/
