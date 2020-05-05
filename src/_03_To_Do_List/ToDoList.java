@@ -84,14 +84,15 @@ public class ToDoList implements ActionListener {
 			String text = "";
 			
 			for (int i = 0; i < Tasks.size(); i++) {
-				text = text + "\n" + Tasks.get(i);
+				text = text + "<br/>" + "Task #" + i + "  "  + Tasks.get(i);
 			}
-			
-			tasks.setText(text);
-			frame.pack();
+			//tasks.setText("<html><h1 style='color:blue'>Hello</h1> <button>hello</button></html>");
+
+			tasks.setText("<html>" + text + "</html>");
+			frame.setSize(new Dimension(600,100 + 20 * (Tasks.size() + 1)));
 		}else if(e.getSource().toString().contains(buttonNames[1])) {
 			String task = JOptionPane.showInputDialog("Add Task");
-			Tasks.add("Task #" + Tasks.size() + "  "  + task);
+			Tasks.add(task);
 		}else if(e.getSource().toString().contains(buttonNames[2])) {
 			String m = JOptionPane.showInputDialog("Enter the number of whitch Task you would like to remove");
 			try {
